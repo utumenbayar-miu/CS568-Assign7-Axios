@@ -1,4 +1,5 @@
-# CS568 - Assignment 7 - Axios and Class-based components 
+# CS568 - Assignment 7 - Axios and Class-based components
+
 1. Implement a CRUD API for **Students** in your favorite back-end language NodeJS, Java, and so on. The following is Student object.
 ```
 {
@@ -17,8 +18,7 @@
 	hobbies: ["motorcycle", "pool billiards"]
 }
 ```
-2. Implement the CRUD operations in React that makes API calls to the back-end API using **axios**.
-3. Create a new project. Convert the functional components to **class-based components**.
+2. Implement the CRUD operations in React that makes API calls to the back-end API using **Axios**.
 
 ## Extra
 **Containerize** the application so it runs with one command.
