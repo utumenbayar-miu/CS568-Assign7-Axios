@@ -1,6 +1,26 @@
-# CS568 - Assignment 5 - Lifecycle methods
-1. Implement and observe lifecycle methods, ```constructor, render, componentDidMount, componentDidUpdate, componentWillUnmount```.
-2. Implement methods equivalent to ```componentDidMount, componentDidUpdate, componentWillUnmount``` in a functional component using the ```useEffect``` hook. ```componentWillUnmount``` is triggered when you hide/show the component using conditionals.
-3. Trigger the ```componentDidUpdate``` only one of states has been changed by overwriting  ```shouldComponentUpdate```. Practice ```PureComponent``` in a class-based component.
-4. [Research] Customize ```componentDidUpdate``` then it is invoked only one of the state has been changed, not every state. Similar to ```useEffect(() => {...}, [state])```. 
-5. Practice ```React.memo```.
+# CS568 - Assignment 7 - Axios and Class-based components 
+1. Implement a CRUD API for **Students** in your favorite back-end language NodeJS, Java, and so on. The following is Student object.
+```
+{
+	id: "632373a9170462d65b9ed26c",
+	firstname: "Unubold",
+	lastname: "Tumenbayar",
+	about: "looooooong paragraph",
+	favColor: "#00e1ff",
+	gender: "male",
+	email: "utumenbayar@miu.edu",
+	dob: "2000-09-15",
+	luckNumber: 521,
+	courseSatisfaction: 8,
+	phone: 123-45-678,
+	education: "master",
+	hobbies: ["motorcycle", "pool billiards"]
+}
+```
+2. Implement the CRUD operations in React that makes API calls to the back-end API using **axios**.
+3. Create a new project. Convert the functional components to **class-based components**.
+
+## Extra
+**Containerize** the application so it runs with one command.
+* Write a docker file for the back-end application.
+* Write a docker compose for both back-end and front-end applications.
