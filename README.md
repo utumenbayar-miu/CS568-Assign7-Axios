@@ -1,4 +1,4 @@
-# CS568 - Assignment 7 - Axios and Class-based components
+# CS568 - Assignment 7 - Axios
 
 1. Implement a CRUD API for **Students** in your favorite back-end language NodeJS, Java, and so on. The following is Student object.
 ```
